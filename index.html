@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code4Kids | lesmateriaal</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/svg/shortcut.svg">
+    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <nav id="navBar">
+        <a href="#"><img id="logo" src="assets/svg/logo.svg" alt="logo"> </a>
+        <div id="navigation">
+            <ul>
+                <li><a href="#">over ons</a></li>
+                <li><a href="#">lesmateriaal</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="toggleButton" id="themeSwitch">
+            <input type="checkbox">
+            <span></span>
+        </div>
+    </nav>
+
+    <header>
+            <div id="headerImage">
+                <img src="img/header-img.jpg" alt="image of a woman on her computer">
+                <img src="img/small-header.jpg" alt="image of a woman on computer">
+                <div id="headerText">
+                    <h1>Van beginner naar expert<br>Het lesmateriaal brengt je verder</h1>
+                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <div id="cardsContainer">
+            <div class="card">
+                <img src="assets/svg/codeer.svg" alt="icon for coding">
+                <h3>Codeer</h3>
+            </div>
+            <div class="card" id="cardMiddle">
+                <img src="assets/svg/leer.svg" alt="icon for learning">
+                <h3>Leer</h3>
+            </div>
+            <div class="card">
+                <img src="assets/svg/speel.svg" alt="icon for games">
+                <h3>Speel</h3>
+            </div>
+        </div>
+
+        <div class="videoplayer">
+                <div id="accordion">
+                    <div class="wrap">
+                        <img src="assets/svg/pijl.svg" alt="pijl">
+                        <h3>Algemene introductie</h3>
+                    </div>
+                    <div>
+                        <div class="player">
+                            <video id="video-1" class="video-js" preload="auto" data-setup="{}">
+                                <source
+                                    src="https://player.vimeo.com/external/345344320.hd.mp4?s=ed7e3a8824a34524504d8131e359cfc516fa7833&profile_id=175"
+                                    type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that supports HTML5 video
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+                                </p>
+                            </video>
+                            <div class="playerButtons">
+                                <div class="playToggle">
+                                    <img class="pauseButton" src="img/pause btn@2x.png" alt="pause button">
+                                    <img class="playButton" src="img/play-btn@2x.png" alt="play button">
+                                </div>
+                                <img class="forward" src="img/forward btn@2x.png" alt="Forward">
+                                <img class="rewind" src="img/rewind btn@2x.png" alt="Rewind">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <img src="assets/svg/pijl.svg" alt="pijl">
+                        <h3>Workshop 1: Kleuren met code</h3>
+                    </div>
+                    <div>
+                        <div class="player">
+                            <video id="video-2" class="video-js" preload="auto" data-setup="{}">
+                                <source
+                                    src="https://player.vimeo.com/external/345344404.hd.mp4?s=67753f13d7b1f9f4ca0f29ee11426c502e6aa315&profile_id=175"
+                                    type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that supports HTML5 video
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+                                </p>
+                            </video>
+                            <div class="playerButtons">
+                                <div class="playToggle">
+                                    <img class="pauseButton" src="img/pause btn@2x.png" alt="PlayButton">
+                                    <img class="playButton" src="img/play-btn@2x.png" alt="PauseButton">
+                                </div>
+                                <img class="forward" src="img/forward btn@2x.png" alt="Forward">
+                                <img class="rewind" src="img/rewind btn@2x.png" alt="Rewind">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <img src="assets/svg/pijl.svg" alt="pijl">
+                        <h3>Workshop 2: Vormen maken</h3>
+                    </div>
+                    <div>
+                        <div class="player">
+                            <video id="video-3" class="video-js" preload="auto" data-setup="{}">
+                                <source
+                                    src="https://player.vimeo.com/external/345299387.hd.mp4?s=73ead578e683710e23598c2c9d9da690b2cda985&profile_id=175"
+                                    type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that supports HTML5 video
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+                                </p>
+                            </video>
+                            <div class="playerButtons">
+                                <div class="playToggle">
+                                    <img class="pauseButton" src="img/pause btn@2x.png" alt="PlayButton">
+                                    <img class="playButton" src="img/play-btn@2x.png" alt="PauseButton">
+                                </div>
+                                <img class="forward" src="img/forward btn@2x.png" alt="Forward">
+                                <img class="rewind" src="img/rewind btn@2x.png" alt="Rewind">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <img src="assets/svg/pijl.svg" alt="pijl">
+                        <h3>Workshop 3: Beweging </h3>
+                    </div>
+                    <div>
+                        <div class="player">
+                            <video id="video-4" class="video-js" preload="auto" data-setup="{}">
+                                <source
+                                    src="https://player.vimeo.com/external/344758227.hd.mp4?s=e1c40a502c7b64bf31578929d777095d7ead00e2&profile_id=175"
+                                    type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that supports HTML5 video
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+                                </p>
+                            </video>
+                            <div class="playerButtons">
+                                <div class="playToggle">
+                                    <img class="pauseButton" src="img/pause btn@2x.png" alt="PlayButton">
+                                    <img class="playButton" src="img/play-btn@2x.png" alt="PauseButton">
+                                </div>
+                                <img class="forward" src="img/forward btn@2x.png" alt="Forward">
+                                <img class="rewind" src="img/rewind btn@2x.png" alt="Rewind">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <img src="assets/svg/pijl.svg" alt="pijl">
+                        <h3>Workshop 4: Variabelen gebruiken </h3>
+                    </div>
+                    <div>
+                        <div class="player">
+                            <video id="video-5" class="video-js" preload="auto" data-setup="{}">
+                                <source
+                                    src="https://player.vimeo.com/external/344982485.hd.mp4?s=5759d3e6e7c88b15e64bb45ca2492021082053a3&profile_id=175"
+                                    type="video/mp4" />
+                                <p class="vjs-no-js">
+                                    To view this video please enable JavaScript, and consider upgrading to a
+                                    web browser that supports HTML5 video
+                                    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+                                </p>
+                            </video>
+                            <div class="playerButtons">
+                                <div class="playToggle">
+                                    <img class="pauseButton" src="img/pause btn@2x.png" alt="PlayButton">
+                                    <img class="playButton" src="img/play-btn@2x.png" alt="PauseButton">
+                                </div>
+                                <img class="forward" src="img/forward btn@2x.png" alt="Forward">
+                                <img class="rewind" src="img/rewind btn@2x.png" alt="Rewind">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h4>Dat was hem!</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bekijk voor meer informatie ook de andere tutorials.</p>
+                <p>Als u nog vragen heeft, neem dan gerust contact met ons op.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="support">
+            <h2>Support</h2>
+            <p>Onze studenten staan voor je klaar. Etiam porta sem
+                malesuada magna mollis euismod. Nullam id dolor id nibh
+                ultricies vehicula ut id elit. </p>
+            <a class="contactButton"> naar contact </a> 
+            <div class="clear"></div>
+        </div>
+
+        <div class="slickwrap">
+            <div class="background"><img src="img/alina@2x.png" alt="alina">
+                <h2>Alina Kovalchuk</h2>
+                <p>Hoofd Support</p>
+                <a href="#">Mail</a>
+            </div>
+            <div class="background"><img src="img/giorgio@2x.png" alt="giorgi">
+                <h2>Georgie Encinas</h2>
+                <p>Hoofd Support</p>
+                <a href="#">Mail</a>
+            </div>
+            <div class="background"><img src="img/kal@2x.png" alt="kal">
+                <h2>Kal Visuals</h2>
+                <p>Hoofd Support</p>
+                <a href="#">Mail</a>
+            </div>
+            <div class="background"><img src="img/normah@2x.png" alt="norman">
+                <h2>Norman Toth</h2>
+                <p>Hoofd Support</p>
+                <a href="#">Mail</a>
+            </div>
+        </div>
+
+</main>
+
+    <footer>
+            <div class="footer">
+                <h2>Klaar voor de <br>Volgende uitdaging?</h2>
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+                <a href="#">kom maar op</a>
+            </div>        
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+
+        $( document ).ready(function() {
+
+            var toggle = $('.toggleButton');
+
+            toggle.click(function () {
+                if ($("#logo").attr("src") == "assets/svg/logo.svg") {
+                    $("#logo").attr("src", "assets/svg/logo-light.svg");
+                }
+                else {
+                    $("#logo").attr("src", "assets/svg/logo.svg");
+                } 
+                $("body").toggleClass("darkMode")
+
+            });
+            $( function() {
+            $( "#accordion" ).accordion();
+            });
+
+            $('.slickwrap').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                centerMode: true,
+                variableWidth: true,
+            });
+
+            $('video').each(function (i, el) {
+                var p = $(el).parent();
+                $('.playToggle', p).click(function () {
+                    console.log($(this));
+                    if ($(this).hasClass('play')) {
+                        $(this).removeClass('play');
+                        $(this).find('.playButton').css({
+                            "visibility": "visible",
+                        });
+                        $(this).find('.pauseButton').css({
+                            "visibility": "hidden",
+                        });
+                        el.pause();
+                    } else {
+                        $(this).addClass('play');
+                        $(this).find('.playButton').css({
+                            "visibility": "hidden",
+                        });
+                        $(this).find('.pauseButton').css({
+                            "visibility": "visible",
+                        });
+                        el.play();
+                    }
+                });
+                $('.forward', p).click(function () {
+                    el.currentTime = el.currentTime + 10;
+                });
+                $('.rewind', p).click(function () {
+                    el.currentTime = el.currentTime - 10;
+                });
+            });
+
+
+
+            $(document).mousemove(function () {
+                if ($(".player:hover").length != 0) {
+                    $('.playerButtons').css({
+                        "opacity": "90%",
+                    });
+                } else {
+                    $('.playerButtons').css({
+                        "opacity": "0%",
+                    });
+                }
+
+            });
+
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("myBtn");
+            var span = document.getElementsByClassName("close")[0];
+            $('.video-js').on('ended', function() {
+                modal.style.display = "block";
+            })
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                modal.style.display = "none";
+                }
+            }
+
+
+
+
+});
+    
+    
+    
+    
+    
+    
+    </script>
+
+
+
+    
+</body>
+</html>
